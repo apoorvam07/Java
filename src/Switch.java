@@ -19,6 +19,14 @@ public class Switch {
 //            default:
 //                System.out.printf("%d%n", 100);
 //                break;
+//        }
+
+//            better way to write alt+enter
+            int weekend = input.nextInt();
+            switch (weekend){
+                case 1 ,2,3, 4,5  -> System.out.println("weekdays");
+                case 6 ,7-> System.out.println("weekend");
+            }
             String flower = input.next();
             switch (flower) {
                 case "lotus":
@@ -32,9 +40,7 @@ public class Switch {
                     break;
                 default:
                     System.out.println("all are beautiful");
-
-
-
-        }}
+            }
+        }
 
 }
