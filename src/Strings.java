@@ -7,7 +7,7 @@ public class Strings {
 
 
         String fame="search";
-String game= fame+name;
+        String game= fame+name;
         System.out.println(fame.length());
         System.out.println(game.length());
         System.out.println(game.charAt(9));
@@ -16,7 +16,7 @@ String game= fame+name;
         System.out.println(game);
         System.out.println(c);
         System.out.println(name.substring(1,3));
-String d=name.substring(1,3);
+        String d=name.substring(1,3);
         System.out.println(d);
     }
 }

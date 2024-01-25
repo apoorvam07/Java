@@ -9,6 +9,7 @@ public class primitives {
         int f=257;
         byte g= (byte) f;
         float e=4.3f;
+        System.out.println(e);
         System.out.println(g);
         double sd=3.3;
         float d= (float)sd;
@@ -27,7 +28,7 @@ public class primitives {
         byte b=(byte) (a);
         System.out.println(b);
 
-
+        bd.close();
 
     }
 }

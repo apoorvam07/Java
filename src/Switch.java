@@ -40,7 +40,7 @@ public class Switch {
                     break;
                 default:
                     System.out.println("all are beautiful");
-            }
+            }input.close();
         }
 
 }

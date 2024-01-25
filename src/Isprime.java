@@ -6,6 +6,7 @@ public class Isprime {
         int prime= input.nextInt();
         boolean ans= isPrime(prime);
         System.out.println( ans);
+        input.close();
     }
 
     static boolean isPrime(int n) {
@@ -20,5 +21,7 @@ public class Isprime {
             c++;
         }
         return c * c <= n;
+        
     }
+    
 }

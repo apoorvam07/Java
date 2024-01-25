@@ -14,6 +14,7 @@ public class If_else {
         } else if (b < 2) {
             System.out.printf("%d%n", a-1);
         }
+        input.close();
 //
     }
 }
