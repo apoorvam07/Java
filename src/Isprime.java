@@ -14,13 +14,13 @@ public class Isprime {
             return false;
         }
         int c=2;
-        while(c*c<=n){
+        while(c*c<=n){      //n=5(4<=5)
             if (n%c==0){
                 return false;
             }
             c++;
         }
-        return c * c <= n;
+        return c * c <= n;   //4
         
     }
     
